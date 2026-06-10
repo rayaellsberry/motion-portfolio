@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raya Ellsberry | Motion GFX Designer</title>
+  <meta name="description"
+    content="Motion Graphics Designer specializing in sports entertainment, live event visuals, and immersive 3D content.">
+  <meta property="og:title" content="Raya Ellsberry | Motion Designer">
+  <meta property="og:description"
+    content="Motion Graphics Designer specializing in sports entertainment, live event visuals, and immersive 3D content.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:image" content="assets/high-resolution-color-logo.png">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome 6 for Brand Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Global Glowing Background Gradients -->
+  <div class="bg-glow-wrapper">
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header>
+    <!-- Hamburger button -->
+    <button class="menu-trigger-btn" id="menu-btn" aria-label="Toggle Navigation Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Left Sidebar Layout -->
+  <div class="left-sidebar">
+    <div class="sidebar-line"></div>
+    <div class="sidebar-socials">
+      <a href="https://www.linkedin.com/in/raya-ellsberry/" target="_blank" aria-label="LinkedIn"><i
+          class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.artstation.com/rayaellsberry1" target="_blank" aria-label="ArtStation"><i
+          class="fa-brands fa-artstation"></i></a>
+    </div>
+    <div class="sidebar-line bottom-line"></div>
+    <div class="sidebar-indicator" id="sidebar-active-indicator">Homepage</div>
+  </div>
+
+  <!-- Fullscreen Split Navigation Menu Overlay -->
+  <div class="menu-overlay" id="menu-panel">
+    <!-- Background glowing hexagon on right side -->
+    <div class="menu-bg-hexagon">
+      <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="250,40 431,145 431,355 250,460 69,355 69,145" stroke="rgba(197, 108, 240, 0.15)"
+          stroke-width="2" fill="rgba(197, 108, 240, 0.02)" />
+        <!-- Glowing TP Monogram -->
+        <image href="assets/high-resolution-color-logo.png" x="150" y="150" height="220" width="220" opacity="0.15" />
+      </svg>
+    </div>
+
+    <!-- Left navigation list -->
+    <div class="menu-left-pane">
+      <ul class="nav-links">
+        <li><a href="#homepage" id="nav-home">Homepage</a></li>
+        <li><a href="#portfolio" id="nav-portfolio">Portfolio</a></li>
+        <li><a href="#about" id="nav-about">About</a></li>
+        <li><a href="#end" id="nav-contact">Contact</a></li>
+      </ul>
+      <div class="menu-label-corner">Menu</div>
+    </div>
+
+    <!-- Right contact panel -->
+    <div class="menu-right-pane">
+      <div class="contact-section-wrapper">
+        <h2 class="contact-label">Contact</h2>
+        <ul class="contact-info-list">
+          <li><a href="mailto:rayaellsberry@gmail.com" id="contact-email">rayaellsberry@gmail.com</a></li>
+          <li><span id="contact-location">Based in Detroit</span></li>
+        </ul>
+
+        <a href="assets/Raya%20E%202026%20Motion%20GFX%20Resume.pdf" class="resume-download-btn" id="resume-btn"
+          download>Resume Download</a>
+
+        <div class="menu-social-icons">
+          <a href="https://www.linkedin.com/in/raya-ellsberry/" target="_blank" aria-label="LinkedIn"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://rayaellsberry1.artstation.com" target="_blank" aria-label="ArtStation"><i
+              class="fa-brands fa-artstation"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Scrollable Snapping Container -->
+  <div class="app-container" id="scroll-wrapper">
+
+    <!-- 1. HOMEPAGE SECTION -->
+    <section id="homepage" class="section-active">
+      <div class="container-fluid px-0 h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Text column -->
+          <div class="col-lg-6 col-md-12 d-flex align-items-center">
+            <div class="hero-content">
+              <h1 class="hero-title">Creating a World<br>We Can Imagine</h1>
+              <p class="hero-desc">Motion Graphics Designer specializing in sports entertainment, live event visuals,
+                and immersive 3D content. Experienced creating high-impact motion graphics for arena environments,
+                branded campaigns, social media, and digital platforms for the Detroit Pistons and freelance clients.
+              </p>
+              <div class="hero-cta">
+                <a href="#about" class="btn-primary-custom" id="cta-what-we-do">
+                  <span>What We Do</span>
+                  <div class="arrow-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                </a>
+                <a href="#portfolio" class="btn-outline-custom" id="cta-view-works">
+                  <span>View Works</span>
+                  <div class="arrow-circle-outline"><i class="fa-solid fa-arrow-right"></i></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Hexagon column -->
+          <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
+            <div class="hero-visual-wrapper">
+              <!-- Inline SVG glassmorphism hexagon with glowing monogram TP inside -->
+              <svg viewBox="0 0 500 500" class="hexagon-svg" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <!-- Gradient for hexagon boundary border -->
+                  <linearGradient id="hexBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="rgba(197, 108, 240, 0.6)" />
+                    <stop offset="50%" stop-color="rgba(59, 76, 202, 0.2)" />
+                    <stop offset="100%" stop-color="rgba(197, 108, 240, 0.4)" />
+                  </linearGradient>
+
+                  <!-- Gradient for hexagon inner fill -->
+                  <linearGradient id="hexFillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="rgba(197, 108, 240, 0.1)" />
+                    <stop offset="100%" stop-color="rgba(59, 76, 202, 0.05)" />
+                  </linearGradient>
+
+                  <!-- Gradient for the monogram TP letters -->
+                  <linearGradient id="monogramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ff9ff3" />
+                    <stop offset="50%" stop-color="#c56cf0" />
+                    <stop offset="100%" stop-color="#8a4ba7" />
+                  </linearGradient>
+
+                  <!-- Purple glow shadow filter -->
+                  <filter id="purpleGlow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="25" result="blur" />
+                    <feComponentTransfer in="blur" result="boost">
+                      <feFuncA type="linear" slope="1.5" />
+                    </feComponentTransfer>
+                    <feMerge>
+                      <feMergeNode in="boost" />
+                      <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                  </filter>
+                </defs>
+
+                <!-- Glowing background hexagon backing shadow -->
+                <polygon points="250,45 427,147 427,353 250,455 73,353 73,147" fill="none" stroke="#c56cf0"
+                  stroke-width="12" filter="url(#purpleGlow)" opacity="0.3" />
+
+                <!-- Translucent glassmorphism foreground hexagon -->
+                <polygon points="250,45 427,147 427,353 250,455 73,353 73,147" fill="url(#hexFillGrad)"
+                  stroke="url(#hexBorderGrad)" stroke-width="3" />
+
+                <!-- Stylized Monogram TP Logo in the exact center -->
+                <image href="assets/high-resolution-color-logo.png" x="150" y="150" height="200" width="200"
+                  style="filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.5));" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. PORTFOLIO SECTION -->
+    <section id="portfolio">
+      <div class="portfolio-layout">
+        <!-- Scroll Track Window -->
+        <div class="portfolio-carousel-container">
+          <div class="portfolio-track" id="slider-track">
+
+            <!-- Project Card 1 (Active) -->
+            <div class="portfolio-card active" data-index="0">
+              <img src="assets/Core THX Reveal Thumbnail.png" data-hover-gif="assets/Core THX V1.gif"
+                data-static-src="assets/Core THX Reveal Thumbnail.png" class="portfolio-card-img"
+                alt="Core THX Project View">
+              <div class="portfolio-card-placeholder">THX Animations</div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="portfolio-card" data-index="1">
+              <img src="assets/Cade City Starting Lineup CH Thumbnail.png"
+                data-hover-gif="assets/DP_Cade Cunningham_CH.gif"
+                data-static-src="assets/Cade City Starting Lineup CH Thumbnail.png" class="portfolio-card-img"
+                alt="Starting Lineup Project View">
+              <div class="portfolio-card-placeholder">STARTING LINEUP</div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="portfolio-card" data-index="2">
+              <img src="assets/Core Detroit Dub Thumbnail.png" data-hover-gif="assets/DP_Detroit Dub Core_CH.gif"
+                data-static-src="assets/Core Detroit Dub Thumbnail.png" class="portfolio-card-img"
+                alt="Detroit Dub Project View">
+              <div class="portfolio-card-placeholder">DETROIT DUB</div>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="portfolio-card" data-index="3">
+              <img src="assets/WNBA Silhouette Reveal Thumbnail.png" data-hover-gif="assets/WNBA Court Reveal_16x9.gif"
+                data-static-src="assets/WNBA Silhouette Reveal Thumbnail.png" class="portfolio-card-img"
+                alt="Detroit WNBA Reveal Project View">
+              <div class="portfolio-card-placeholder">Detroit WNBA Reveal</div>
+            </div>
+
+            <!-- Project Card 5 -->
+            <div class="portfolio-card" data-index="4">
+              <img src="assets/Round 2 Game 5 Thumbnail.png" data-hover-gif="assets/Round 1 Game 4 EXPORT_V2.gif"
+                data-static-src="assets/Round 2 Game 5 Thumbnail.png" class="portfolio-card-img"
+                alt="Motion Tune-ins Project View">
+              <div class="portfolio-card-placeholder">Motion Tune-ins</div>
+            </div>
+
+            <!-- Project Card 6 -->
+            <div class="portfolio-card" data-index="5">
+              <img src="assets/Disintegration0040.png" data-hover-gif="assets/Disintegration_Export.gif"
+                data-static-src="assets/Disintegration0040.png" class="portfolio-card-img"
+                alt="Houdini Learnings Project View">
+              <div class="portfolio-card-placeholder">Houdini Learnings</div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Details and Controls Footer -->
+        <div class="portfolio-footer">
+          <!-- Active project detail box -->
+          <div class="project-details-panel">
+            <div class="project-info-text">
+              <h2 class="project-title">
+                <span class="project-title-name">THX Animations</span>
+                <span class="project-date">October 13th, 2025</span>
+              </h2>
+              <div class="project-category">Detroit Pistons</div>
+            </div>
+
+            <a href="#" class="btn-outline-custom p-0" id="project-link" aria-label="View current project details">
+              <div class="btn-primary-custom" style="padding: 12px; box-shadow: none;">
+                <span>View Project</span>
+                <div class="arrow-circle"><i class="fa-solid fa-arrow-right"></i></div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Slider Pagination control -->
+          <div class="portfolio-controls-widget">
+            <span class="pagination-counter">1 / 6</span>
+            <button class="nav-arrow-btn prev" disabled aria-label="Previous Slide">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="nav-arrow-btn next" aria-label="Next Slide">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section id="about">
+      <div class="container-fluid px-0">
+        <div class="about-grid">
+          <!-- Left side: Artwork image panel -->
+          <div class="about-img-container">
+            <img src="assets/EmployeeMediaDayCityEdition--369.jpg" class="about-img"
+              alt="Raya Ellsberry VFX Abstract Artwork Design">
+          </div>
+
+          <!-- Right side: Cinematic studio statement -->
+          <div class="about-text-wrapper">
+            <p class="about-paragraph">
+              I’m a Motion Designer with a passion for crafting dynamic visuals that tell compelling stories. My
+              background spans sports, broadcast, and digital content, where I blend design, animation, and technical
+              problem-solving to create work that feels both polished and impactful. Whether it’s building high-energy
+              motion graphics, developing visual systems, or exploring new creative tools, I’m always focused on pushing
+              ideas further and making every frame count. Alongside my motion design work, I’m actively expanding into
+              VFX and procedural workflows in Houdini, continuously developing new skills to bring a deeper level of
+              creativity and technical execution to my projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. END CONTACT SECTION -->
+    <section id="end">
+      <div class="end-layout">
+        <h1 class="end-email" id="end-email-text">rayaellsberry@gmail.com</h1>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap 5 bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Shared projects database -->
+  <script src="projects-data.js"></script>
+  <!-- Custom Navigation and Slider Logic -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
