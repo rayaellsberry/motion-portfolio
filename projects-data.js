@@ -6,8 +6,8 @@ const projectsData = [
     category: 'Detroit Pistons',
     description: 'Motion Graphics made for in-arena content, this animation is just before tip off and gives fans anticipation of the show.',
       images: [
-            'https://assets.rayaellsberry.com/City THX Final.gif',
-      'https://assets.rayaellsberry.com/Core THX V1.mp4'
+            'https://assets.rayaellsberry.com/City-THX-Final.gif',
+      'https://assets.rayaellsberry.com/Core-THX-V1.mp4'
     ]
   },
   {
@@ -16,8 +16,8 @@ const projectsData = [
     category: 'Detroit Pistons',
     description: 'Motion Graphics made for in-arena content, this animation is for Player Intros before the game.',
     images: [
-      'https://assets.rayaellsberry.com/Cade Starting Lineup City_Preview Loop.gif',
-      'https://assets.rayaellsberry.com/Jaden_Starting 5 Loop City_Preview.gif',
+      'https://assets.rayaellsberry.com/Cade-Starting-Lineup-City_Preview-Loop.gif',
+      'https://assets.rayaellsberry.com/Jaden_Starting-5-Loop-City_Preview.gif',
       
     ]
   },
@@ -27,8 +27,8 @@ const projectsData = [
     category: 'Detroit Pistons',
     description: 'Motion Graphics made for in-arena and outside content, this animation plays after a Pistons Win.',
     images: [
-      'https://assets.rayaellsberry.com/Detroit Dub_Preview Loop Dak V2.mp4',
-      'https://assets.rayaellsberry.com/City Detroit Dub Dak Boards_Preview Loop.mp4'
+      'https://assets.rayaellsberry.com/Detroit-Dub_Preview-Loop-Dak-V2.mp4',
+      'https://assets.rayaellsberry.com/City-Detroit-Dub-Dak-Boards_Preview-Loop.mp4'
     ]
   },
   {
@@ -37,9 +37,9 @@ const projectsData = [
     category: 'Detroit Pistons/WNBA',
     description: 'Motion Graphics made for social content to announce the returning of a WNBA Team to Detroit.',
     images: [
-      'https://assets.rayaellsberry.com/WNBA Court Reveal_16x9.gif',
-      'https://assets.rayaellsberry.com/WNBA Silhouette Logo.mp4',
-      'https://assets.rayaellsberry.com/Spirit of Detroit WNBA.mp4'
+      'https://assets.rayaellsberry.com/WNBA-Court-Reveal_16x9.gif',
+      'https://assets.rayaellsberry.com/WNBA-Silhouette-Logo.mp4',
+      'https://assets.rayaellsberry.com/Spirit-of-Detroit-WNBA.mp4'
     ]
   },
   {
@@ -48,9 +48,9 @@ const projectsData = [
     category: 'Detroit Pistons',
     description: 'Motion graphics made for social content to let fans know when and where to tune in to the playoff games.',
     images: [
-      'https://assets.rayaellsberry.com/Round 1 Game 4 EXPORT_V2.mp4',
-      'https://assets.rayaellsberry.com/Round 2 Game 2 EXPORT.mp4',
-      'https://assets.rayaellsberry.com/Round 2 Game 5 EXPORT.mp4'
+      'https://assets.rayaellsberry.com/Round-1-Game-4-EXPORT_V2.mp4',
+      'https://assets.rayaellsberry.com/Round-2-Game-2-EXPORT.mp4',
+      'https://assets.rayaellsberry.com/Round-2-Game-5-EXPORT.mp4'
     ]
   },
   {
