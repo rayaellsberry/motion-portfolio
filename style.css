@@ -1151,7 +1151,7 @@ header {
   max-width: 1920px;
   /* limit width to video resolution */
   border-radius: 4px;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: var(--glass-shadow);
   border: 1px solid rgba(197, 108, 240, 0.15);
   position: relative;
@@ -1162,7 +1162,6 @@ header {
   justify-content: center;
   align-items: center;
   /* height: auto; */
-  display: contents;
   min-height: 200px;
 }
 
@@ -1178,8 +1177,8 @@ header {
 
 .gallery-nav-widget {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1rem;
+  right: 1rem;
   background: var(--button-gradient);
   border: 1px solid var(--glass-border);
   border-radius: 40px;
