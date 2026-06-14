@@ -145,6 +145,3 @@ vite.config.ts.timestamp-*
 
 # Dependencies
 node_modules/
-
-# Cloudflare Wrangler
-wrangler.jsonc
