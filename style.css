@@ -1161,8 +1161,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: auto; */
-  min-height: 200px;
+  height: auto;
 }
 
 .details-display-img {
