@@ -1504,4 +1504,29 @@ header {
   .portfolio-controls-widget {
     align-self: flex-end;
   }
+
+  /* Fix hero title overlapping hamburger menu on small screens */
+  @media (max-width: 768px) {
+    #homepage .row {
+      align-items: flex-start !important;
+      padding-top: 150px;
+    }
+
+    .hero-title {
+      font-size: clamp(32px, 8vw, 52px);
+      letter-spacing: -1px;
+      margin-bottom: 16px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #homepage .row {
+      padding-top: 180px;
+    }
+
+    .hero-title {
+      font-size: clamp(24px, 9vw, 36px);
+      letter-spacing: -0.5px;
+    }
+  }
 }
