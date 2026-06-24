@@ -63,5 +63,19 @@ const projectsData = [
       'https://assets.rayaellsberry.com/Crystaline_Fracture_Final.gif',
       'https://assets.rayaellsberry.com/Crystaline_Still_v40001.png'
     ]
+  },
+  {
+    title: 'More In-Arena Content',
+
+    category: 'Detroit Pistons',
+    description: 'Placeholder description for more in‑arena content.',
+    images: ['https://assets.rayaellsberry.com/Core-Logo-Loop-Preview-Dak-Boards.gif']
+  },
+  {
+    title: 'The Archive',
+
+    category: 'Various',
+    description: 'Placeholder description for the archive.',
+    images: ['https://assets.rayaellsberry.com/Reel-Highlights-RENDER.gif']
   }
 ];
