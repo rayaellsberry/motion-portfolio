@@ -5,8 +5,8 @@ const projectsData = [
     date: 'October 13, 2025',
     category: 'Detroit Pistons',
     description: 'Motion Graphics made for in-arena content, this animation is just before tip off and gives fans anticipation of the show.',
-      images: [
-            'https://assets.rayaellsberry.com/City-THX-Final.gif',
+    images: [
+      'https://assets.rayaellsberry.com/City-THX-Final.gif',
       'https://assets.rayaellsberry.com/Core-THX-V1.mp4'
     ]
   },
@@ -18,7 +18,7 @@ const projectsData = [
     images: [
       'https://assets.rayaellsberry.com/Cade-Starting-Lineup-City_Preview-Loop.gif',
       'https://assets.rayaellsberry.com/Jaden_Starting-5-Loop-City_Preview.gif',
-      
+
     ]
   },
   {
@@ -66,16 +66,27 @@ const projectsData = [
   },
   {
     title: 'More In-Arena Content',
-
     category: 'Detroit Pistons',
     description: 'Placeholder description for more in‑arena content.',
-    images: ['https://assets.rayaellsberry.com/Core-Logo-Loop-Preview-Dak-Boards.gif']
+    images: [
+      'https://assets.rayaellsberry.com/Core-Logo-Loop-Preview-Dak-Boards.gif',
+      'https://assets.rayaellsberry.com/Pistons-Dancers-Loop-City.mp4',
+      'https://assets.rayaellsberry.com/Season-of-Giving-Preview-Loop.mp4',
+      'https://assets.rayaellsberry.com/Black-Excellence-Preview-Loop.mp4',
+      'https://assets.rayaellsberry.com/Breast-Health-Awareness-Preview-Loop.mp4',
+      'https://assets.rayaellsberry.com/Pistons-Win-Dak-Preview-Loop.mp4'
+    ]
   },
   {
     title: 'The Archive',
-
     category: 'Various',
     description: 'Placeholder description for the archive.',
-    images: ['https://assets.rayaellsberry.com/Reel-Highlights-RENDER.gif']
-  }
+    images: [
+      'https://assets.rayaellsberry.com/Reel-Highlights-RENDER.mp4',
+      'https://assets.rayaellsberry.com/1920x1080-5s-Media.mp4',
+      'https://assets.rayaellsberry.com/Goin-to-work-title-seq.mp4',
+      'https://assets.rayaellsberry.com/HPH-Player-Dashboard.mp4',
+      'https://assets.rayaellsberry.com/MFT-New-Customer-Announcement-Motion.mp4'
+    ]
+  },
 ];
