@@ -61,7 +61,7 @@ const projectsData = [
     images: [
       'https://assets.rayaellsberry.com/Disintegration_Export.gif',
       'https://assets.rayaellsberry.com/Crystaline_Fracture_Final.gif',
-      'https://assets.rayaellsberry.com/WNBA-Fire-Ball-FINAL.gif'
+      'https://assets.rayaellsberry.com/WNBA-Fire-Ball-FINAL.gif',
       'https://assets.rayaellsberry.com/Firey-Skull.gif'
     ]
   },
