@@ -188,6 +188,9 @@ header {
   align-items: center;
   letter-spacing: -1.5px;
   transition: var(--transition-fast);
+  pointer-events: auto;
+  z-index: 101;
+  position: relative;
 }
 
 .logo:hover {
