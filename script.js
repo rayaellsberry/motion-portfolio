@@ -131,6 +131,51 @@ document.addEventListener('DOMContentLoaded', () => {
       updateSlider();
     }
   });
+  // --- Drag / Swipe support for slider ---
+  let isDragging = false;
+  let startX = 0;
+  let dragged = false;
+
+  const onDragStart = (e) => {
+    isDragging = true;
+    dragged = false;
+    startX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+    track.style.cursor = 'grabbing';
+    e.preventDefault();
+  };
+
+  const onDragMove = (e) => {
+    if (!isDragging) return;
+    const x = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+    const diff = startX - x;
+    const threshold = (cards[0].getBoundingClientRect().width + 30); // card width + gap
+    if (Math.abs(diff) > threshold) {
+      if (diff > 0 && currentSlideIndex < projectsData.length - 1) {
+        currentSlideIndex++;
+      } else if (diff < 0 && currentSlideIndex > 0) {
+        currentSlideIndex--;
+      }
+      updateSlider();
+      startX = x; // reset start for continuous drag
+      dragged = true;
+    }
+  };
+
+  const onDragEnd = () => {
+    isDragging = false;
+    track.style.cursor = 'grab';
+  };
+
+  // Mouse events
+  track.addEventListener('mousedown', onDragStart);
+  track.addEventListener('mousemove', onDragMove);
+  track.addEventListener('mouseup', onDragEnd);
+  track.addEventListener('mouseleave', onDragEnd);
+
+  // Touch events
+  track.addEventListener('touchstart', onDragStart, { passive: true });
+  track.addEventListener('touchmove', onDragMove, { passive: false });
+  track.addEventListener('touchend', onDragEnd);
 
   // Direct card click: focus if not active, navigate if already active
   cards.forEach((card, index) => {
