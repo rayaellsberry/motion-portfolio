@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update media display for new asset
         const asset = project.images[currentGalleryImgIndex];
         updateMediaForAsset(asset);
+        detailsDesc.textContent = project.imageDescriptions[currentGalleryImgIndex];
         updateGalleryControls(project);
       }
     });
@@ -141,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentGalleryImgIndex++;
         const asset = project.images[currentGalleryImgIndex];
         updateMediaForAsset(asset);
+        detailsDesc.textContent = project.imageDescriptions[currentGalleryImgIndex];
         updateGalleryControls(project);
       }
     });
