@@ -5,12 +5,12 @@ const projectsData = [
     date: 'October 13, 2025',
     category: 'Detroit Pistons',
     imageDescriptions: [
-      'Motion Graphics made for in-arena content, this animation is just before tip off and gives fans anticipation of the show.',
-      'Placeholder description for image 2'
+      'Motion Graphics made for in-arena content; this animation is a core edition and it is played before home games giving fans anticipation of the show.',
+      'Motion Graphics made for in-arena content; this animation is a city edition and it is played before home games giving fans anticipation of the show.'
     ],
     images: [
-      'https://assets.rayaellsberry.com/City-THX-Final.gif',
-      'https://assets.rayaellsberry.com/Core-THX-V1.mp4'
+      'https://assets.rayaellsberry.com/Core-THX-V1.mp4',
+      'https://assets.rayaellsberry.com/City-THX-Final.mp4'
     ]
   },
   {
@@ -18,8 +18,8 @@ const projectsData = [
     date: 'November 10, 2025',
     category: 'Detroit Pistons',
     imageDescriptions: [
-      'Motion Graphics made for in-arena content, this animation is for Player Intros before the game.',
-      'Placeholder description for image 2'
+      'Motion Graphics made for in-arena content; this animation is for player intros before tip off for the city edition 2025-2026 season.',
+      'Motion Graphics made for in-arena content; this animation is for player intros before tip off for the city edition 2024-2025 season.'
     ],
     images: [
       'https://assets.rayaellsberry.com/Cade-Starting-Lineup-City_Preview-Loop.gif',
@@ -31,8 +31,8 @@ const projectsData = [
     date: 'August 27, 2025',
     category: 'Detroit Pistons',
     imageDescriptions: [
-      'Motion Graphics made for in-arena and outside content, this animation plays after a Pistons Win.',
-      'Placeholder description for image 2'
+      'Motion Graphics made for in-arena and outside content; this animation plays after a Pistons Dub core edition.',
+      'Motion Graphics made for in-arena and outside content; this animation plays after a Pistons Dub city edition.'
     ],
     images: [
       'https://assets.rayaellsberry.com/Detroit-Dub_Preview-Loop-Dak-V2.mp4',
@@ -44,9 +44,9 @@ const projectsData = [
     date: 'September 1, 2025',
     category: 'Detroit Pistons/WNBA',
     imageDescriptions: [
-      'Motion Graphics made for social content to announce the returning of a WNBA Team to Detroit.',
-      'Placeholder description for image 2',
-      'Placeholder description for image 3'
+      'WNBA Team announcement court reveal commercial that combines motion graphics and video footage.',
+      'Using the WNBA logo and silhouette animation combining motion and video for the WNBA team announcement.',
+      'Using the Spirit of Detroit statue as a centerpiece for the WNBA team announcement using VFX and motion graphics.'
     ],
     images: [
       'https://assets.rayaellsberry.com/WNBA-Court-Reveal_16x9.gif',
@@ -60,8 +60,8 @@ const projectsData = [
     category: 'Detroit Pistons',
     imageDescriptions: [
       'Motion graphics made for social content to let fans know when and where to tune in to the playoff games.',
-      'Placeholder description for image 2',
-      'Placeholder description for image 3'
+      'Motion graphics made for social content to let fans know when and where to tune in to the playoff games.',
+      'Motion graphics made for social content to let fans know when and where to tune in to the playoff games.'
     ],
     images: [
       'https://assets.rayaellsberry.com/Round-1-Game-4-EXPORT_V2.mp4',
@@ -73,12 +73,12 @@ const projectsData = [
     title: 'More In-Arena Content',
     category: 'Detroit Pistons',
     imageDescriptions: [
-      "In-Arena Content that didn't fit in the previous categories.",
-      'Placeholder description for image 2',
-      'Placeholder description for image 3',
-      'Placeholder description for image 4',
-      'Placeholder description for image 5',
-      'Placeholder description for image 6'
+      "In-Arena Content core logo loop for the 2023-2024 season.",
+      'In-Arena Content for the Pistons Dancers team logo loop',
+      'In-Arena Content for the Season of Giving initiative',
+      'In-Arena Content for the Black History Month initiative',
+      'In-Arena Content for the Breast Health Awareness initiative',
+      'In-Arena Content for when the Pistons win for the 2024-2025 season.'
     ],
     images: [
       'https://assets.rayaellsberry.com/Core-Logo-Loop-Preview-Dak-Boards.mp4',
@@ -93,11 +93,11 @@ const projectsData = [
     title: 'The Archive',
     category: 'Various',
     imageDescriptions: [
-      "Motion Graphics that didn't fit in the previous categories.",
-      'Placeholder description for image 2',
-      'Placeholder description for image 3',
-      'Placeholder description for image 4',
-      'Placeholder description for image 5'
+      'Logo animation/End card for the Reel Highlights Videos made for social and youtube content.',
+      'This is player intro cards for the Pistons GT team, combining motion graphics and video.',
+      'This is the title sequence for the Goin to Work series.',
+      'This is a HUD interface for a player dashboard for an app called Human Powered Health.',
+      'This is a motion graphics animation for a new customer announcement for a company called Modern Football Technology.'
     ],
     images: [
       'https://assets.rayaellsberry.com/Reel-Highlights-RENDER.mp4',
@@ -112,10 +112,10 @@ const projectsData = [
     date: 'Current',
     category: 'Personal Projects',
     imageDescriptions: [
-      'VFX practice and learnings with Houdini.',
-      'Placeholder description for image 2',
-      'Placeholder description for image 3',
-      'Placeholder description for image 4'
+      'Working with particles and mask to disintegrate the free 3D model.',
+      'Working with RBD Fracturing and particles to break the crystal rock.',
+      'The WNBA 30th anniversary ball on fire. Working with Pyro FX to create a candle like flame on the ball, symbolizing the league being on fire right now!',
+      'Working with PyroFX to ignite some fire on this Skull model.'
     ],
     images: [
       'https://assets.rayaellsberry.com/Disintegration_Export.gif',
