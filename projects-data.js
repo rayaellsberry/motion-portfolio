@@ -74,7 +74,7 @@ const projectsData = [
     category: 'Detroit Pistons',
     imageDescriptions: [
       "In-Arena Content core logo loop for the 2023-2024 season.",
-      'In-Arena Content for the Pistons Dancers team logo loop',
+      'In-Arena Content for the Pistons Dancers team city edition logo loop',
       'In-Arena Content for the Season of Giving initiative',
       'In-Arena Content for the Black History Month initiative',
       'In-Arena Content for the Breast Health Awareness initiative',
