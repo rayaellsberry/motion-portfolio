@@ -10,7 +10,7 @@ const projectsData = [
     ],
     images: [
       'https://assets.rayaellsberry.com/Core-THX-V1.mp4',
-      'https://assets.rayaellsberry.com/City-THX-Final.mp4'
+      'https://assets.rayaellsberry.com/City-THX-Final.mp4',
     ]
   },
   {
