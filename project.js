@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 1. Title & Description
     detailsTitle.textContent = project.title;
-    detailsDesc.textContent = project.description;
+    detailsDesc.textContent = project.imageDescriptions[currentGalleryImgIndex];
     if (detailsCategory) detailsCategory.textContent = project.category;
     if (detailsDate) detailsDate.textContent = project.date;
     
