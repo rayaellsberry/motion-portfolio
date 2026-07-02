@@ -196,7 +196,7 @@ track.addEventListener('wheel', (e) => {
 }, { passive: false });
 
   // Touch events
-  track.addEventListener('touchstart', onDragStart, { passive: true });
+  track.addEventListener('touchstart', onDragStart, { passive: false });
   track.addEventListener('touchmove', onDragMove, { passive: false });
   track.addEventListener('touchend', onDragEnd);
 
