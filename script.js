@@ -166,11 +166,33 @@ document.addEventListener('DOMContentLoaded', () => {
     track.style.cursor = 'grab';
   };
 
-  // Mouse events
+  // Mouse, Wheel and Touch events
   track.addEventListener('mousedown', onDragStart);
-  track.addEventListener('mousemove', onDragMove);
-  track.addEventListener('mouseup', onDragEnd);
-  track.addEventListener('mouseleave', onDragEnd);
+  window.addEventListener('mousemove', onDragMove);
+  window.addEventListener('mouseup', onDragEnd);
+  // Wheel scroll support for slider navigation (vertical scroll)
+// Wheel scroll support for slider navigation (vertical scroll) with throttle to slow down scrolling
+track.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  // Throttle: ignore wheel events that occur within 300ms of the previous one
+  if (track._wheelThrottle) return;
+  track._wheelThrottle = true;
+  setTimeout(() => { track._wheelThrottle = false; }, 300);
+
+  if (e.deltaY > 0) {
+    // Scroll down -> next slide
+    if (currentSlideIndex < projectsData.length - 1) {
+      currentSlideIndex++;
+      updateSlider();
+    }
+  } else if (e.deltaY < 0) {
+    // Scroll up -> previous slide
+    if (currentSlideIndex > 0) {
+      currentSlideIndex--;
+      updateSlider();
+    }
+  }
+}, { passive: false });
 
   // Touch events
   track.addEventListener('touchstart', onDragStart, { passive: true });
