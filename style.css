@@ -777,8 +777,8 @@ header {
   overflow: visible;
   position: relative;
   height: 52vh;
+  touch-action: none; /* Disable native touch scrolling for custom swipe */
 }
-
 /* Horizontal track container */
 .portfolio-track {
   display: flex;

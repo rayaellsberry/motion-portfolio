@@ -137,15 +137,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let dragged = false;
 
   const onDragStart = (e) => {
+    e.preventDefault(); // Prevent page scroll on touch start
     isDragging = true;
     dragged = false;
     startX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
     track.style.cursor = 'grabbing';
-    e.preventDefault();
   };
 
   const onDragMove = (e) => {
     if (!isDragging) return;
+    e.preventDefault(); // Prevent page scrolling while dragging
     const x = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
     const diff = startX - x;
     const threshold = (cards[0].getBoundingClientRect().width + 30); // card width + gap
