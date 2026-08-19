@@ -97,14 +97,16 @@ const projectsData = [
       'This is player intro cards for the Pistons GT team, combining motion graphics and video.',
       'This is the title sequence for the Goin to Work series.',
       'This is a HUD interface for a player dashboard for an app called Human Powered Health.',
-      'This is a motion graphics animation for a new customer announcement for a company called Modern Football Technology.'
-    ],
+      'This is a motion graphics animation for a new customer announcement for a company called Modern Football Technology.',
+      'This is a motion graphics animation for a new logo for a company called Modern Football Technology.'
+   ],
     images: [
       'https://assets.rayaellsberry.com/Reel-Highlights-RENDER.mp4',
       'https://assets.rayaellsberry.com/1920x1080-5s-Media.mp4',
       'https://assets.rayaellsberry.com/Goin-to-work-title-seq.mp4',
       'https://assets.rayaellsberry.com/HPH-Player-Dashboard.mp4',
-      'https://assets.rayaellsberry.com/MFT-New-Customer-Announcement-Motion.mp4'
+      'https://assets.rayaellsberry.com/MFT-New-Customer-Announcement-Motion.mp4',
+      'https://assets.rayaellsberry.com/Modern-Football-Logo-Animation.mp4'
     ]
   },
   {
