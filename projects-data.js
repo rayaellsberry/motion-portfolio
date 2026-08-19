@@ -98,7 +98,7 @@ const projectsData = [
       'This is the title sequence for the Goin to Work series.',
       'This is a HUD interface for a player dashboard for an app called Human Powered Health.',
       'This is a motion graphics animation for a new customer announcement for a company called Modern Football Technology.',
-      'This is a motion graphics animation for a new logo for a company called Modern Football Technology.'
+      'This is a logo animation for a company called Modern Football Technology.'
    ],
     images: [
       'https://assets.rayaellsberry.com/Reel-Highlights-RENDER.mp4',
